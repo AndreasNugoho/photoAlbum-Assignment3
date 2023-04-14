@@ -53,22 +53,6 @@ class PhotoController{
         }
     }
 
-    // static async createPhoto(req, res) {
-    //     try {
-    //         const { title, caption, image_url } = req.body
-    //         const { id } = req.UserData
-    //         const result = await Photo.create({
-    //             title,
-    //             caption,
-    //             image_url,
-    //             UserId:id
-    //         })
-    //         res.status(200).json(result)
-    //     } catch (error) {
-    //         res.status(error?.code || 500).json(error)
-    //     }
-    // }
-
     static async createPhoto(req, res) {
         try {
     
